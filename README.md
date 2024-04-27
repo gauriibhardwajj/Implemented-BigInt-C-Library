@@ -2,15 +2,15 @@
 
 #### Contents
 
-* [Highlights](#overview)
-* [Usage](#functionalities)
+* [Overview](#overview)
+* [Functionalities](#functionalities)
 * [Features](#features)
-* [Development](#installation)
+* [Installation](#installation)
 * [Contributing](#contributing)
 * [License](#license)
 
 ## Overview
-BigInt is a header-only C++ library that provides arbitrary-precision integer arithmetic, allowing users to perform arithmetic operations on integers of practically unlimited size. This library is designed to be easy to use, efficient, and suitable for a wide range of applications where standard integer types are insufficient due to their limited range.
+BigInt is a header-only C++ library that provides **`arbitrary-precision integer arithmetic`**, allowing users to perform arithmetic operations on integers of practically unlimited size. This library is designed to be easy to use, efficient, and suitable for a wide range of applications where standard integer types are insufficient due to their limited range.
 ### Creating a BigInt library for C++ would offer several benefits:
 
 --> Simplicity: Developers won't have to reinvent the wheel for handling large integers, simplifying code and reducing potential bugs.
@@ -19,7 +19,7 @@ BigInt is a header-only C++ library that provides arbitrary-precision integer ar
 
 --> Performance: While performance might not match low-level C++ operations, a well-designed BigInt library can still provide acceptable performance for many use cases.
 
---> Applications: A BigInt library would be invaluable for cryptography, big data processing, numerical simulations, and any other application requiring precise arithmetic with large integers.
+--> Applications: A BigInt library would be invaluable for **`cryptography, big data processing, numerical simulations`**, and any other application requiring precise arithmetic with large integers.
 
 ## Functionalities
 ### Operators
@@ -117,8 +117,8 @@ BigInt is a header-only C++ library that provides arbitrary-precision integer ar
 ### Computing Methods
 
  * #### `NthCatalan`
+ - Generate the Catalan series upto a predefined integer number.
 
-Generate the Catalan series upto a predefined integer number.
     ```c++
     for (int i = 0; i <= 100; i++)
     {
@@ -129,7 +129,8 @@ Generate the Catalan series upto a predefined integer number.
     ```
     
  * #### `NthFibonacci`
-Generate the Fibonacci series upto a predefined integer number.
+ - Generate the Fibonacci series upto a predefined integer number.
+
     ```c++
     for (int i = 0; i <= 100; i++)
     {
@@ -139,7 +140,8 @@ Generate the Fibonacci series upto a predefined integer number.
     }  
     ```
  * #### `Factorial`
-Computes factorial of a given integer.
+ - Computes factorial of a given integer. 
+
     ```c++
     for (int i = 0; i <= 100; i++)
     {
